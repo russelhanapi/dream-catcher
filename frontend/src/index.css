@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #1a0733,
+    /* Midnight purple */ #311249,
+    /* Deep plum */ #6a1b9a,
+    /* Main purple color */ #8e43c9,
+    /* Softer violet accent */ #1c1c2e /* Near-black for calm base */
+  );
+  color: #f3e8ff; /* Light text for dark background */
+  font-family: 'Inter', sans-serif;
+}

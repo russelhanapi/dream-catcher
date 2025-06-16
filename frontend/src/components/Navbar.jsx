@@ -11,7 +11,7 @@ function Navbar() {
       position='sticky'
       elevation={0}
       sx={{
-        background: 'rgba(255, 255, 255, 0.6)',
+        background: 'rgb(243, 232, 255,0.9)',
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',
         borderBottom: '1px solid rgba(0, 0, 0, 0.05)',

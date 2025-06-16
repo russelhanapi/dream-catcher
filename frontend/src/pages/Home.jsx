@@ -41,11 +41,11 @@ function Home() {
             <Typography
               variant='h5'
               component='h1'
-              sx={{ fontWeight: 600, letterSpacing: 0.5, color: '#2e2e2e' }}
+              sx={{ fontWeight: 600, letterSpacing: 0.5, color: '#f3e8ff' }}
             >
               Your Dreams
             </Typography>
-            <Typography variant='body2' sx={{ color: 'text.secondary' }}>
+            <Typography variant='body2' sx={{ color: '#decdf0' }}>
               Write. Remember. Revisit.
             </Typography>
           </Stack>

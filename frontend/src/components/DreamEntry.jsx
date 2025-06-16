@@ -51,7 +51,7 @@ function DreamEntry({ dreamEntry }) {
         elevation={0}
         sx={{
           borderRadius: 3,
-          backgroundColor: 'rgba(255, 255, 255, 0.6)',
+          backgroundColor: 'rgb(243, 232, 255,0.95)',
           backdropFilter: 'blur(8px)',
           WebkitBackdropFilter: 'blur(8px)',
           border: '1px solid rgba(0, 0, 0, 0.05)',
