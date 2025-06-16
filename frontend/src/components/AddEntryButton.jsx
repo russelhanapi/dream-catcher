@@ -16,6 +16,9 @@ function AddEntryButton({ onClick }) {
         px: { xs: 1.5, md: 3 },
         py: 1.2,
         minWidth: 'auto',
+        fontSize: { xs: 0, md: '1rem' }, // 👈 hides text on xs, shows on md+
+        fontWeight: 500,
+        letterSpacing: '0.5px',
         transition: 'all 0.25s ease',
         boxShadow: '0 3px 8px rgba(106, 27, 154, 0.15)',
         '& .MuiButton-startIcon': {
@@ -29,21 +32,7 @@ function AddEntryButton({ onClick }) {
         },
       }}
     >
-      <Typography
-        sx={{
-          display: { xs: 'none', md: 'inline' },
-          fontSize: '1rem',
-          fontWeight: 500,
-          color: '#4a235a',
-          letterSpacing: '0.5px',
-          transition: 'color 0.3s ease',
-          '&:hover': {
-            color: '#f3e8ff',
-          },
-        }}
-      >
-        Log Dream
-      </Typography>
+      Log Dream
     </Button>
   );
 }
